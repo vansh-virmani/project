@@ -1,0 +1,67 @@
+<!--external css used in services.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body style="background-image: url(image.png);">
+   
+     <!-- Header Section with Business Name and Navigation --> 
+    <header id="header">
+        <img src="media/images.jpg" alt="" height="100">
+    <em><h1>Eventura Creations</h1></em>
+            <p>A Perfect Point for your all Event Need</p>
+            <!-- Navigation bar with links to different sections -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" >Services</a></li>
+                    <li><a href="gallary.html" >Gallery</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+     
+     <!-- Contact Form Section -->
+     <section class="contact">
+        <h2>Book Appointment</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Mobile No.:</label>
+            <input type="text" id="phone" name="phone" ><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <label for="preference">Contact Preference:</label>
+            <input type="radio" id="email" name="preference" value="email"> Email
+            <input type="radio" id="phone" name="preference" value="phone"> Phone<br><br>
+
+            <label for="inquiry">Inquiry Type:</label>
+            <select id="inquiry" name="inquiry">
+                <option value="general">General Inquiry</option>
+                <option value="support">Support</option>
+                <option value="feedback">Feedback</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <h2> Contact details</h2>
+        <ul>
+            <li>Email-<a href="">eventura13@gmail.com</a></li>
+            <li>Phone No. - 10230-34434</li>
+            <li>Mobile No- 9644456456</li>
+           
+        </ul>
+    </section>
+</body>
+</html>

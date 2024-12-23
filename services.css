@@ -1,0 +1,34 @@
+ #header{
+    
+    text-align: center;
+        background-color: #040001;
+        color: #eda413;
+        padding: 10px; }
+        .services{
+            color: #e0d9d9;
+            font-size: large;
+        }
+    nav ul {
+            padding: 0; /*removes default padding*/
+        }
+        nav ul li {
+            display: inline;
+            margin:20px;
+        }
+        nav ul li a {
+            color: #e0d9d9;
+            text-decoration:none;
+        }
+        .contact{
+            margin-left: 40%;
+            color: #ce0c29;
+            font-size: large;
+        } 
+        .about{
+            text-align: center;
+            font:bold;
+            font-size: larger;
+            background-color: #e17f7f;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
